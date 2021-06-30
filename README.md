@@ -1,6 +1,6 @@
 ## Welcome to ZeroAlster Research Labratory
 
-![Image](/home/deepmind/Desktop/ZeroAlster_Label.png)
+![Image](https://avatars.githubusercontent.com/u/80531364?s=400&u=facfcf6af9d1b1edc4d2bb3794eafb609fde7b73&v=4)
 
 This **Shayan Karimi**'s research group page which is mainly focused on five different areas: 
  
