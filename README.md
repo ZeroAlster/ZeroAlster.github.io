@@ -1,37 +1,28 @@
-## Welcome to GitHub Pages
+## Welcome to ZeroAlster Research Labratory
 
-You can use the [editor on GitHub](https://github.com/ZeroAlster/ZeroAlster.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+![Image](/home/deepmind/Desktop/ZeroAlster_Label.png)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+This **Shayan Karimi**'s research group page which is mainly focused on five different areas: 
+ 
+ - **_Machine Learning_**
+ - **_Reinforcement Learning_**
+ - **_Artificial Intelligence_**
+ - **_Combinatorial Optimiztion_**
+ - **_Theoretical Computer Science_**
+ 
+### Current Projects
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```
+ - Face Anti-Spoofing Algorithm Design 
+ - Solving the Robot Path Planning Problem with Deep Q Network Algorithm
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Lab Publications
 
-### Jekyll Themes
+_Ehsan Futuhi, Shayan Karimi , “ [Solving Nurikabe with Monte-carlo Tree Search](https://ieeexplore.ieee.org/document/9178704/authors#authors) ”, 5th of
+ICCIA, Beijing, China._
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ZeroAlster/ZeroAlster.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### Contact
+1. Email #1 : karimishayan76@gamil.com
+2. Email #2 : shayan76@aut.ac.ir
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
