@@ -14,7 +14,7 @@ This **Shayan Karimi**'s research group page which is mainly focused on five dif
 ### Current Projects
 
 ```
- - Face Anti-Spoofing Algorithm Design 
+ - Smart Trader Design Using Deep Reinforcement Learning (AlphaTrader Project) 
  - Solving the Robot Path Planning Problem with Deep Q Network Algorithm
 ```
 
