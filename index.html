@@ -6,19 +6,18 @@
   <title>Shayan Karimi</title>
   <style>
     body {
-      font-family: 'Segoe UI', sans-serif;
       margin: 0;
-      padding: 0;
-      background: linear-gradient(to right, #f0f4f8, #d9e2ec);
-      color: #222;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(145deg, #2d2f33, #1a1c20);
+      color: #f1f5f9;
     }
-    .container {
-      max-width: 800px;
-      margin: 3em auto;
+    .main {
+      max-width: 900px;
+      margin: 0 auto;
       padding: 2em;
-      background: white;
-      border-radius: 12px;
-      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      background: #2a2d34;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      border-radius: 8px;
     }
     header {
       display: flex;
@@ -26,16 +25,17 @@
       margin-bottom: 2em;
     }
     .profile-pic {
-      width: 80px;
-      height: 80px;
+      width: 180px;
+      height: 180px;
       border-radius: 50%;
       margin-right: 1em;
       object-fit: cover;
+      border: 2px solid #718096;
     }
     h1 {
       margin: 0;
       font-size: 1.8em;
-      color: #1a202c;
+      color: #f8fafc;
     }
     nav {
       margin-bottom: 2em;
@@ -43,13 +43,16 @@
     nav a {
       margin-right: 15px;
       text-decoration: none;
-      color: #007acc;
+      color: #90cdf4;
       font-weight: 500;
     }
+    nav a:hover {
+      color: #63b3ed;
+    }
     h2 {
-      border-bottom: 1px solid #eee;
+      border-bottom: 1px solid #4a5568;
       padding-bottom: 0.4em;
-      color: #2d3748;
+      color: #e2e8f0;
     }
     ul {
       padding-left: 1.5em;
@@ -57,37 +60,48 @@
     ul li {
       margin-bottom: 1em;
     }
+    a {
+      color: #81e6d9;
+    }
     a:hover {
-      text-decoration: underline;
+      color: #63b3ed;
     }
   </style>
 </head>
 <body>
-  <div class="container">
+  <div class="main">
     <header>
-      <img src="your-photo.jpg" alt="Shayan Karimi" class="profile-pic">
+      <img src="New-Profile.jpg" alt="Shayan Karimi" class="profile-pic">
       <h1>Shayan Karimi</h1>
     </header>
 
     <nav>
-      <a href="https://www.linkedin.com/in/YOUR-LINK" target="_blank">LinkedIn</a>
-      <a href="https://www.researchgate.net/profile/YOUR-LINK" target="_blank">ResearchGate</a>
-      <a href="https://scholar.google.com/citations?user=YOUR-ID" target="_blank">Google Scholar</a>
+      <a href="https://www.linkedin.com/in/shayan-karimi-54b8ba154/" target="_blank">LinkedIn</a>
+      <a href="https://www.researchgate.net/profile/Shayan-Karimi-3" target="_blank">ResearchGate</a>
+      <a href="https://scholar.google.com/citations?user=sp6_rEoAAAAJ&hl=en" target="_blank">Google Scholar</a>
     </nav>
 
     <h2>About Me</h2>
-    <p>
-      I am a researcher in machine learning theory with a focus on reinforcement learning and deep learning.
-    </p>
+    <p>    My current research focuses on designing efficient learning algorithms in reinforcement learning and deep learning, with a strong emphasis on rigorous theoretical guarantees. In addition to practical algorithm design, my expertise lies in machine learning theory and theoretical computer science, particularly in the computational and statistical aspects of learning algorithms. During my MSc at the University of Alberta, I was fortunate to be supervised by <a href="https://xiaoqitan.org/" target="_blank">Dr. Xiaoqi Tan</a> and supported as a Teaching Assistant and Research Assistant through <a href="https://sodalab.ca/" target="_blank">SODA Lab</a> and <a href="https://www.amii.ca/" target="_blank">Amii</a> funding. As part of my thesis, I had the privilege of collaborating with <a href="https://scholar.google.com/citations?hl=en&user=NBl5GvcAAAAJ&view_op=list_works&sortby=pubdate" target="_blank">Dr. Gellért Weise</a> from Google DeepMind, working on computational hardness results in reinforcement learning. Since graduating, I have been <strong> independently </strong> pursuing research projects on RL theory, including connections between lower bounds and MDP hardness measures, as well as theoretical analyses of transformer architectures.
+</p>
 
     <h2>Publications and Preprints</h2>
     <ul>
-      <li>
-        <strong>Title of Paper One</strong> – <a href="https://arxiv.org/abs/YOUR-LINK-1" target="_blank">arXiv</a>
-      </li>
-      <li>
-        <strong>Title of Paper Two</strong> – <a href="https://arxiv.org/abs/YOUR-LINK-2" target="_blank">arXiv</a>
-      </li>
+      <!-- <li><strong>Title of Paper One</strong> – <a href="https://arxiv.org/abs/YOUR-LINK-1" target="_blank">arXiv</a></li>
+      <li><strong>Title of Paper Two</strong> – <a href="https://arxiv.org/abs/YOUR-LINK-2" target="_blank">arXiv</a></li> -->
+      <li><strong>Computational Hardness of Reinforcement Learning under Partial q<sup>&pi;</sup> Realizability</strong> <br> <strong>Shayan Karimi </strong> and Xiaoqi Tan <br> (Submitted to Neurips) </li>
+      <li><a href="https://arxiv.org/pdf/2410.05225" target="_blank">ETGL-DDPG: A Deep Deterministic Policy Gradient Algorithm for Sparse Reward Continuous Control</a><br>Ehsan Futuhi,<strong>Shayan Karimi</strong>, Chao Gao and Martin Müller<br>(Accepted to TMLR Journal)</li>
+      <li><a href="https://arxiv.org/pdf/2012.04883" target="_blank">On Distributed Algorithms for Minimum Dominating Set Problem</a> <br> Sharareh Alipoure, Ehsan Futuhi, <strong>Shayan Karimi </strong> <br> (pre-print in Arxiv) </li>
+      <li><a href="https://ieeexplore.ieee.org/document/9178704/authors#authors" target="_blank">Solving Nurikabe with Monte-Carlo Tree Search</a> <br> Ehsan Futuhi and <strong>Shayan Karimi </strong> <br> (Published in ICCIA) </li>
+    </ul>
+
+    <h2>Technical Reports</h2>
+    <ul>
+    <li><a href="https://www.researchgate.net/publication/343933365_Analyzing_Twitter_text_messages_related_to_Covid-19?channel=doi&linkId=5f48b8ada6fdcc14c5d69997&showFulltext=true" target="_blank">Analyzing Twitter text messages related to Covid-19
+</a> <br> <strong>Shayan Karimi </strong> and Ehsan Futuhi <br> </li>
+<li><a href="https://drive.google.com/file/d/1mDmgO51zD9iGahm-cU9vqnjGSKLdDSmM/view" target="_blank">Review of Query Complexity Bounds for Planning in MDPs under Linear Realizability of the Optimal Value Function</a> <br> <strong>Shayan Karimi </strong> and Samuel Robertson <br> (Published in ICCIA) </li>
+<li><a href="https://drive.google.com/file/d/1omPb4bvo_LITlmd1kXyOy6T4fBxyLLxo/view" target="_blank"> Empirical Study of Differential Q-learning on Continuing Control Tasks</a> <br> (Course Project) </li>
+<li><a href="https://ieeexplore.ieee.org/document/9178704/authors#authors" target="_blank">Level Blending with Evolutionary Algorithm in Latent Space of VQ-VAE</a> <br> (Course Project) </li>
     </ul>
   </div>
 </body>
